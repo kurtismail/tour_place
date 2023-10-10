@@ -8,11 +8,12 @@ const Card = (data) => {
             <div className="title">
                 <h1>{title}</h1>
             </div>
-            <img src={image} alt="imagess" />
+            <img src={image} alt="images" />
             <div className="card-over">
                 <p>
                     {desc}
                 </p>
+                <p>hello</p>
             </div>
         </div>
     )
